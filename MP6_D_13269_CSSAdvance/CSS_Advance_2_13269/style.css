@@ -77,7 +77,6 @@ textarea {
     color: #1e293b;
     background-color: #ffffff;
     font-family: inherit; 
-    border-radius: 8px;
 }
 
 input[type="text"]:focus,
@@ -119,12 +118,10 @@ input[type="file"] {
     padding: 11px;
     border: 1px solid #0369a1;
     cursor: pointer;
-    border-radius: 25px;
 }
 
 .btn-submit:hover {
     background-color: #0369a1;
-    border-radius: 25px;
 }
 
 option.option-placeholder {
