@@ -17,7 +17,6 @@ body {
     margin: 0 auto;
     padding: 36px 40px;
     border: 1px solid #c8a0c2;
-    border-radius: 8px;
 }
 
 h1 {
@@ -62,7 +61,6 @@ textarea {
     font-size: 14px;
     color: #2a0f24;
     background-color: #fcf8fb;
-    border-radius: 8px;
     font-family: inherit; 
 }
 
@@ -108,13 +106,11 @@ input[type="file"] {
     padding: 12px;
     border: 1px solid #a8809c;
     cursor: pointer;
-    border-radius: 10px
 }
 
 .btn-submit:hover {
     background-color: #a8809c;
     color: #ffffff;
-    border-radius: 10px;
 }
 
 option.option-placeholder {
