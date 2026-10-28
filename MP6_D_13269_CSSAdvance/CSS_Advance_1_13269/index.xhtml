@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Lomba Inovasi</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="card">
+        <h1>Formulir Registrasi Peserta Lomba</h1>
+        <p class="desc">Lengkapi seluruh data kelompok dan berkas pendaftaran di bawah ini.</p>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <table cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="label-col">
+                        <label for="namatim"><strong>Nama Tim</strong></label>
+                    </td>
+                    <td>
+                        <input type="text" id="namatim" name="namatim" size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-col">
+                        <label for="ketua"><strong>Nama Penanggung Jawab Tim</strong></label>
+                    </td>
+                    <td>
+                        <input type="text" id="ketua" name="ketua" size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-col">
+                        <label for="jumlah"><strong>Jumlah Anggota</strong></label>
+                    </td>
+                    <td>
+                        <select id="jumlah" name="jumlah">
+                            <option value="" class="option-placeholder">-- Pilih Jumlah Anggota --</option>
+                            <option>1 Anggota</option>
+                            <option>2 Anggota</option>
+                            <option>3 Anggota</option>
+                            <option>4 Anggota</option>
+                            <option>5 Anggota</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-col">
+                        <label for="telepon"><strong>Nomor Penanggung Jawab Tim</strong></label>
+                    </td>
+                    <td>
+                        <input type="text" id="telepon" name="telepon" size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-col">
+                        <label for="universitas"><strong>Asal Perguruan Tinggi / Instansi</strong></label>
+                    </td>
+                    <td>
+                        <input type="text" id="universitas" name="universitas" size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-col">
+                        <strong>Kategori Lomba</strong>
+                    </td>
+                    <td>
+                        <div class="checkbox-container">
+                            <label><input type="checkbox" id="coding" name="bidang" value="Coding" /> Programming </label>
+                            <label><input type="checkbox" id="desain" name="bidang" value="Desain" /> Desain Grafis &amp; UI/UX</label>
+                            <label><input type="checkbox" id="video" name="bidang" value="Video" /> Sinematografi</label>
+                            <label><input type="checkbox" id="essay" name="bidang" value="Essay" /> Karya Tulis Essay</label>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-col">
+                        <strong>Kategori Peserta</strong>
+                    </td>
+                    <td>
+                        <div class="radio-container">
+                            <label><input type="radio" id="mahasiswa" name="peserta" value="Mahasiswa" /> Mahasiswa Aktif</label>
+                            <label><input type="radio" id="umum" name="peserta" value="Umum" /> Kategori Umum</label>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-col">
+                        <label for="deskripsi"><strong>Deskripsi Singkat Karya</strong></label>
+                    </td>
+                    <td>
+                        <textarea id="deskripsi" name="deskripsi" rows="3" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-col">
+                        <label for="alasan"><strong>Alasan Mengikuti Lomba</strong></label>
+                    </td>
+                    <td>
+                        <textarea id="alasan" name="alasan" rows="3" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-col">
+                        <label for="filekarya"><strong>Unggah Berkas Karya</strong></label>
+                    </td>
+                    <td>
+                        <input type="file" id="filekarya" name="filekarya" accept="application/pdf, image/jpeg, image/png" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="submit-cell">
+                        <input type="submit" name="daftar" value="Submit Pendaftaran Lomba" class="btn-submit" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #dcb6ce; 
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #efdfed;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 36px 40px;
+    border: 1px solid #c8a0c2;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #0f172a;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.desc {
+    color: #8b6480;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 16px;
+}
+
+td {
+    vertical-align: top;
+}
+
+.label-col {
+    width: 38%;
+    padding-right: 12px;
+    font-size: 14px;
+    color: #1e293b;
+    padding-top: 8px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #e1cbe0;
+    font-size: 14px;
+    color: #2a0f24;
+    background-color: #fcf8fb;
+    border-radius: 8px;
+    font-family: inherit; 
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #ca9ec2;
+    background-color: #ffffff;
+}
+
+.checkbox-container,
+.radio-container {
+    padding-top: 4px;
+}
+
+.checkbox-container label,
+.radio-container label {
+    display: block; 
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #553349;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    font-size: 13.5px;
+    color: #69475d;
+    padding-top: 4px;
+}
+
+.submit-cell {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #ca9ec2;
+    color: #512c44;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    border: 1px solid #a8809c;
+    cursor: pointer;
+    border-radius: 10px
+}
+
+.btn-submit:hover {
+    background-color: #a8809c;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+option.option-placeholder {
+    color: #b894b6;
+    font-style: italic;
+}
